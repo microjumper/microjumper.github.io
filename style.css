@@ -1,0 +1,39 @@
+body {
+    background-color: #fafafa;
+}
+
+.greetings {
+    margin: auto;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Fira Mono', monospace;
+    color: #212121;
+}
+
+.greetings h1 {
+    display: inline-block;
+}
+
+@media (min-width: 576px) {
+    .greetings {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .greetings {
+        font-size: 2.125rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .greetings {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .greetings {
+        font-size: 3.75rem;
+    }
+}
